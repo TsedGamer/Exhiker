@@ -1,0 +1,36 @@
+/* Importa lo stile base */
+@import url('AndolinaLab25.css');
+
+/* Stile specifico per la pagina Chi Siamo */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.raw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.left, .right {
+  width: 45%;
+}
+img {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+
+@media (max-width: 768px) {
+  .raw {
+    flex-direction: column;
+  }
+  .left, .right {
+    width: 100%;
+  }
+}

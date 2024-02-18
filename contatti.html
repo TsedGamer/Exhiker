@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatti - Exhiker</title>
+  <link rel="stylesheet" href="./CSS/styleContatti.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Exhiker</h1>
+    <h2>Esploriamo per affascinarci</h2>
+  </header>
+  <nav>
+    <a href="AndolinaLab25.html">Home</a>
+    <a href="chi-siamo.html">Chi siamo</a>
+    <a href="escursioni.html">Escursioni</a>
+    <a href="faq.html">FAQ</a>
+  </nav>
+  <section class="contatti">
+    <div class="form-container">
+      <form action="mailto:info@exhiker.com" method="post">
+        <div class="campo">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="campo">
+          <label for="cognome">Cognome:</label>
+          <input type="text" id="cognome" name="cognome" required>
+        </div>
+        <div class="campo">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="campo">
+          <label for="telefono">Telefono:</label>
+          <input type="tel" id="telefono" name="telefono">
+        </div>
+        <div class="campo">
+          <label for="sesso">Sesso:</label>
+          <select id="sesso" name="sesso">
+            <option value="maschio">Maschio</option>
+            <option value="femmina">Femmina</option>
+            <option value="non specificato">Preferisco non dirlo</option>
+          </select>
+        </div>
+        <div class="campo">
+          <label for="messaggio">Messaggio:</label>
+          <textarea id="messaggio" name="messaggio" rows="5" cols="40"></textarea>
+        </div>
+        <div class="campo">
+          <input type="submit" value="Invia">
+        </div>
+      </form>
+
+<div class="info">
+  <p>Email: info@exhiker.com</p>
+  <p>Telefono: +39 123 456 7890</p>
+  <p>Luogo: Parco Nazionale delle Dolomiti Bellunesi</p>
+</div>
+
+  </section>
+  <footer>
+    <p>© 2024 - Exhiker</p>
+  </footer>
+</body>
+</html>
