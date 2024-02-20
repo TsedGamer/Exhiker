@@ -1,0 +1,24 @@
+body {
+    background-color: #D8D8D8;
+}
+
+.iphone {
+    width: 480px;
+    height: auto;
+}
+.Back {
+    margin: 10px;
+    border: 2px solid #000000;
+    padding: 5px;
+    width: 480px;
+    height: auto;
+}
+.Back:hover {
+    opacity: 0.5;
+}
+.box-model {
+    border: 2px solid #f504f;
+}
+h1 {
+    text-shadow: 0 5px 10px #0000ff;
+}
